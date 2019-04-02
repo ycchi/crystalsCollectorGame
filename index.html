@@ -24,7 +24,7 @@
                 GOAL
               </div>
               <div class="card-body">
-                <h4 class="card-title"><span id="targetNumber"></span></h4>
+                <h4 class="card-title"><span id="targetNum"></span></h4>
         
               </div>
             </div>
@@ -36,7 +36,7 @@
                 Your Number
               </div>
               <div class="card-body">
-                <h4 class="card-title"><span id="yourNumber"></span></h4>
+                <h4 class="card-title"><span id="userNum"></span></h4>
                 
               </div>
             </div>
@@ -52,22 +52,22 @@
         <div class="card-group flex-grow-1">
             <div class="card">
               <div class="card-body d-flex justify-content-center">
-                  <button class="btn"><img src="./assets/img/diamond.png" alt="diamond"></button>
+                  <button class="btn crystal" id="diamond"><img src="./assets/img/diamond.png" alt="diamond"></button>
               </div>
             </div>
             <div class="card">
               <div class="card-body d-flex justify-content-center">
-                  <button class="btn"><img src="./assets/img/emerald.png" alt="emerald"></button>
+                  <button class="btn crystal" id="emerald"><img src="./assets/img/emerald.png" alt="emerald"></button>
               </div>
             </div>
             <div class="card">
               <div class="card-body d-flex justify-content-center">
-                  <button class="btn"><img src="./assets/img/ruby.png" alt="ruby"></button>
+                  <button class="btn crystal" id="ruby"><img src="./assets/img/ruby.png" alt="ruby"></button>
               </div>
             </div>
             <div class="card">
               <div class="card-body d-flex justify-content-center">
-                  <button class="btn"><img src="./assets/img/sapphire.png" alt="sapphire"></button>
+                  <button class="btn crystal" id="sapphire"><img src="./assets/img/sapphire.png" alt="sapphire"></button>
               </div>
             </div>
           </div>
@@ -84,18 +84,18 @@
             <div class="col-sm-12 col-md-6 col-lg-6 bg-light">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#!">WINS: </a>
+                      <p class="nav-link active" >WINS: <span id="winCounter"></span></p>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="#!">| </a>
+                      <p class="nav-link active" href="#!">| </p>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#!">LOSSES: </a>
+                      <p class="nav-link">LOSSES: <span id="lossesCounter"></span></p>
                     </li>
                   </ul>
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3 bg-light d-flex justify-content-end px-0">
-                <button type="button" class="btn btn-success">New Game</button>
+                <button type="button" class="btn btn-success" id="newGame">New Game</button>
             </div>
           </div>
     </div>
