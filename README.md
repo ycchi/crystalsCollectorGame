@@ -20,3 +20,7 @@ Each time when the game starts, the game will change the value of each crystal.
 - JavaScript
 - jQuery
 
+## Contributor
+
+Young Chi
+young.c.chi@gmail.com
