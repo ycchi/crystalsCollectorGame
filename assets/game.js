@@ -27,11 +27,11 @@ $("#lossesCounter").text(lossesCounter);
 // new game function
 function newGame() {
   // alert new game
-  alert("New Game")
+  //alert("New Game")
 
 
   // generate random target number between 19 and 120
-  targetNum = Math.floor(Math.random()*40) + 19;
+  targetNum = Math.floor(Math.random()*80) + 19;
 
   // write on page
   $("#targetNum").text(targetNum);
