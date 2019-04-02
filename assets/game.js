@@ -80,6 +80,7 @@ $(".crystal").on("click", function (){
   alert("WIN")
   console.log("winCounter: " + winCounter);
   $("#winCounter").text(winCounter);
+  newGame()
   //loss scenario
   }
   else if (targetNum < userNum) {
@@ -90,6 +91,8 @@ $(".crystal").on("click", function (){
     newGame();
   }
 })
+
+newGame();
 
 
 
